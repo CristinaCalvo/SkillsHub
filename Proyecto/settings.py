@@ -32,12 +32,12 @@ PORT = 8000
 ALLOWED_HOSTS = ['127.0.0.1', 'skillshub.onrender.com']
 
 CORS_ALLOWED_ORIGINS = [
-    'skillshub.onrender.com',
+    'https://skillshub.onrender.com',
     'http://127.0.0.1:8000/'
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'skillshub.onrender.com',
+    'https://skillshub.onrender.com',
     'http://127.0.0.1:8000/',
     
 ]
